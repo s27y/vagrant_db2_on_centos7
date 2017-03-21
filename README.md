@@ -6,7 +6,7 @@ Install and setup DB2 express version on CentOS 7
 
 There is very little changes in the Vagrantfile. DB2 installation is done via db2_install.sh
 
-### Step
+### Steps
 - Download `v11.1_linuxx64_expc.tar.gz` from [IBM DB2](https://www.ibm.com/analytics/us/en/technology/db2/db2-trials.html)
   - Make sure update the file name in db2_install.sh
 - Place the package in the same dir as `db2_install.sh`

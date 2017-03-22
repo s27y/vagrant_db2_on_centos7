@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Comment out, to be run manually
 # sed -i "s/SELINUX=enforcing.*/SELINUX=permissive/g" /etc/selinux/config
 yum update -y
 yum group install -y "Development Tools" 

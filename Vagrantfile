@@ -15,6 +15,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "centos/7"
   config.vm.provider :virtualbox do |vb|
         vb.name = "db2_on_centos7"
+        vb.customize ["modifyvm", :id, "--memory", "2048"]
   end
   
   config.vm.hostname = "db2"
